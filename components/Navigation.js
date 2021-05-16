@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -19,18 +20,12 @@ const Navigation = () => {
             </button>
             <div class="collapse navbar-collapse mt-2 mt-md-0" id="navbarNav0">
               <p class="m-auto">
-                <a
-                  class="btn btn-outline-primary m-1"
-                  href="https://dzpjg.csb.app/call-to-action"
-                >
+                <Link class="btn btn-outline-primary m-1" to="/call-to-action">
                   Call to action
-                </a>
-                <a
-                  class="btn btn-outline-primary m-1"
-                  href="https://dzpjg.csb.app/contacts"
-                >
+                </Link>
+                <Link class="btn btn-outline-primary m-1" to="/contacts">
                   Contacts
-                </a>
+                </Link>
                 <a class="btn btn-outline-primary m-1" href="contents.html">
                   Contents
                 </a>

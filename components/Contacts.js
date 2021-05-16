@@ -1,4 +1,6 @@
 import React, { Fragment } from "react";
+import Navigation from "./Navigation";
+import Header from "./Header";
 import backgroundImage from "../assets/images/hero/blue.svg";
 import backgroundImage2 from "../assets/images/shapes/9.svg";
 import phoneIcon from "../assets/images/icons/phone.svg";
@@ -10,6 +12,8 @@ import backgroundImage4 from "../assets/images/shapes/8.svg";
 const Contacts = () => {
   return (
     <Fragment>
+      <Header />
+      <Navigation />
       {/* Contacts Form 1 */}
       <section classNameName="fdb-block pt-0">
         <div classNameName="container-fluid p-0 pb-md-5">

@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import NotFound from "./NotFound";
-
+import Navigation from "./Navigation";
+import Header from "./Header";
 import AdobeLogo from "../assets/images/customers/adobe.svg";
 import ebayLogo from "../assets/images/customers/ebay.svg";
 import samsungLogo from "../assets/images/customers/samsung.svg";
@@ -27,6 +28,8 @@ import compassSvg from "../assets/images/icons/compass.svg";
 const callToAction1 = () => {
   return (
     <Fragment>
+      <Header />
+      <Navigation />
       <section className="fdb-block">
         <div className="container">
           <div className="row justify-content-center">

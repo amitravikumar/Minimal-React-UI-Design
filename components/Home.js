@@ -1,13 +1,13 @@
 import React, { Fragment } from "react";
 import backgroundImageCallToAction from "../assets/images/shapes/1.svg";
+import backgroundImageContactUs from "../assets/images/shapes/9.svg";
 import Navigation from "./Navigation";
+import Header from "./Header";
 
 const Home = () => {
   return (
     <Fragment>
-      <section class="fdb-block p-2" id="navigator">
-        <h1 style={{ textAlign: "center" }}>Minimal React UI Design</h1>
-      </section>
+      <Header />
       <Navigation />
       <section className="fdb-block py-0">
         <div
@@ -30,6 +30,80 @@ const Home = () => {
                   View More
                 </a>
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="fdb-block py-0">
+        <div
+          className="container py-5 my-5"
+          style={{ backgroundImage: `url(${backgroundImageContactUs})` }}
+        >
+          <div className="row py-5">
+            <div className="col py-5">
+              <div className="fdb-box fdb-touch">
+                <div className="row text-center justify-content-center">
+                  <div className="col-12 col-md-9 col-lg-7">
+                    <h1>Contact Us</h1>
+                    <p className="lead">
+                      Pityful a rethoric question ran over her cheek, then she
+                      continued her way. On her way she met a copy.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="row justify-content-center pt-4">
+                  <div className="col-12 col-md-8">
+                    <form>
+                      <div className="row">
+                        <div className="col-12 col-md">
+                          <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Name"
+                          />
+                        </div>
+                        <div className="col-12 col-md mt-4 mt-md-0">
+                          <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Email"
+                          />
+                        </div>
+                      </div>
+
+                      <div className="row mt-4">
+                        <div className="col">
+                          <input
+                            type="email"
+                            className="form-control"
+                            placeholder="Subject"
+                          />
+                        </div>
+                      </div>
+
+                      <div className="row mt-4">
+                        <div className="col">
+                          <textarea
+                            className="form-control"
+                            name="message"
+                            rows="3"
+                            placeholder="How can we help?"
+                          ></textarea>
+                        </div>
+                      </div>
+                      <div className="row mt-4">
+                        <div className="col text-center">
+                          <button type="submit" className="btn btn-primary">
+                            Submit
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
