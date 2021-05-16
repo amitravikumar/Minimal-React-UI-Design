@@ -21,11 +21,14 @@ const Navigation = () => {
               <p class="m-auto">
                 <a
                   class="btn btn-outline-primary m-1"
-                  href="https://eqfor.csb.app/call-to-action"
+                  href="https://dzpjg.csb.app/call-to-action"
                 >
                   Call to action
                 </a>
-                <a class="btn btn-outline-primary m-1" href="contacts.html">
+                <a
+                  class="btn btn-outline-primary m-1"
+                  href="https://dzpjg.csb.app/contacts"
+                >
                   Contacts
                 </a>
                 <a class="btn btn-outline-primary m-1" href="contents.html">
