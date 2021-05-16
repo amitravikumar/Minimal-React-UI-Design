@@ -50,7 +50,7 @@ const Header = () => {
                 textAlign: "center"
               }}
             >
-              Minimal React UI Design
+              Minimal UI
             </Logo>
           </Link>
         </div>

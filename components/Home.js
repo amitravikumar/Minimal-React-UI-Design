@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 import backgroundImageCallToAction from "../assets/images/shapes/1.svg";
 import backgroundImageContactUs from "../assets/images/shapes/9.svg";
 import Navigation from "./Navigation";
@@ -23,12 +24,9 @@ const Home = () => {
                 which roasted parts of sentences fly into your mouth.
               </p>
               <p className="mt-4">
-                <a
-                  className="btn btn-primary"
-                  href="https://eqfor.csb.app/call-to-action"
-                >
+                <Link className="btn btn-primary" to="/call-to-action">
                   View More
-                </a>
+                </Link>
               </p>
             </div>
           </div>

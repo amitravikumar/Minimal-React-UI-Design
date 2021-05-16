@@ -26,30 +26,30 @@ const Navigation = () => {
                 <Link class="btn btn-outline-primary m-1" to="/contacts">
                   Contacts
                 </Link>
-                <a class="btn btn-outline-primary m-1" href="contents.html">
+                <Link class="btn btn-outline-primary m-1" to="/contents">
                   Contents
-                </a>
-                <a class="btn btn-outline-primary m-1" href="features.html">
+                </Link>
+                <Link class="btn btn-outline-primary m-1" to="/features">
                   Features
-                </a>
-                <a class="btn btn-outline-primary m-1" href="footers.html">
+                </Link>
+                <Link class="btn btn-outline-primary m-1" to="/footers">
                   Footers
-                </a>
-                <a class="btn btn-outline-primary m-1" href="forms.html">
+                </Link>
+                <Link class="btn btn-outline-primary m-1" to="/forms">
                   Forms
-                </a>
-                <a class="btn btn-outline-primary m-1" href="headers.html">
+                </Link>
+                <Link class="btn btn-outline-primary m-1" to="/headers">
                   Headers
-                </a>
-                <a class="btn btn-outline-primary m-1" href="pricings.html">
+                </Link>
+                <Link class="btn btn-outline-primary m-1" to="/pricings">
                   Pricings
-                </a>
-                <a class="btn btn-outline-primary m-1" href="teams.html">
+                </Link>
+                <Link class="btn btn-outline-primary m-1" to="/teams">
                   Teams
-                </a>
-                <a class="btn btn-outline-primary m-1" href="testimonials.html">
+                </Link>
+                <Link class="btn btn-outline-primary m-1" to="/testimonials">
                   Testimonials
-                </a>
+                </Link>
               </p>
             </div>
           </nav>
