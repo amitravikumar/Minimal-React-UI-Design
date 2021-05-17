@@ -8,14 +8,54 @@ import navigationIcon from "../assets/images/icons/navigation.svg";
 import mailIcon from "../assets/images/icons/mail.svg";
 import backgroundImage3 from "../assets/images/shapes/6.svg";
 import backgroundImage4 from "../assets/images/shapes/8.svg";
+import styled from "styled-components";
+
+const Head = styled.h1`
+  font-size: 1.75rem;
+  margin-left: 2rem;
+  position: center;
+  z-index: 2;
+  background: greenyellow;
+  transform: skew(-7deg);
+`;
+
+const HeadingStyles = styled.header`
+  padding-bottom: 15px;
+  .bar {
+    border-bottom: 8px solid black;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: auto 1fr;
+    justify-content: space-between;
+    align-items: center;
+  }
+`;
+
+const SectionWrapper = styled.section`
+  padding: 5px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+`;
+
+const Heading = () => {
+  return (
+    <HeadingStyles>
+      <div className="bar">
+        <Head style={{ color: "black" }}>Contact Us Demo UI</Head>
+      </div>
+    </HeadingStyles>
+  );
+};
 
 const Contacts = () => {
   return (
     <Fragment>
       <Header />
       <Navigation />
+      <Heading />
       {/* Contacts Form 1 */}
-      <section classNameName="fdb-block pt-0">
+      <SectionWrapper classNameName="fdb-block pt-0">
         <div classNameName="container-fluid p-0 pb-md-5">
           <iframe
             classNameName="map"
@@ -111,10 +151,11 @@ const Contacts = () => {
             </div>
           </div>
         </div>
-      </section>
+      </SectionWrapper>
 
       {/* Contact Us Form 2 */}
-      <section
+      <Heading />
+      <SectionWrapper
         className="fdb-block bg-dark"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
@@ -184,10 +225,11 @@ const Contacts = () => {
             </div>
           </div>
         </div>
-      </section>
+      </SectionWrapper>
 
       {/* Contact Form 3 */}
-      <section className="fdb-block">
+      <Heading />
+      <SectionWrapper className="fdb-block">
         <div className="container">
           <div className="row text-center justify-content-center">
             <div className="col-12 col-md-8 col-lg-7">
@@ -254,10 +296,11 @@ const Contacts = () => {
             </div>
           </div>
         </div>
-      </section>
+      </SectionWrapper>
 
       {/* Contact Us form 4 */}
-      <section className="fdb-block py-0">
+      <Heading />
+      <SectionWrapper className="fdb-block py-0">
         <div
           className="container py-5 my-5"
           style={{ backgroundImage: `url(${backgroundImage2})` }}
@@ -329,10 +372,11 @@ const Contacts = () => {
             </div>
           </div>
         </div>
-      </section>
+      </SectionWrapper>
 
       {/* Contact Us Form 5 */}
-      <section className="fdb-block pt-0">
+      <Heading />
+      <SectionWrapper className="fdb-block pt-0">
         <div className="container-fluid p-0 pb-3">
           <iframe
             className="map"
@@ -448,10 +492,11 @@ const Contacts = () => {
             </div>
           </div>
         </div>
-      </section>
+      </SectionWrapper>
 
       {/* Contact Us Form 6 */}
-      <section className="fdb-block pt-0">
+      <Heading />
+      <SectionWrapper className="fdb-block pt-0">
         <div className="container-fluid p-0 pb-5">
           <iframe
             className="map"
@@ -512,10 +557,11 @@ const Contacts = () => {
             </div>
           </div>
         </div>
-      </section>
+      </SectionWrapper>
 
       {/* Contact us Form 7 */}
-      <section className="fdb-block py-0">
+      <Heading />
+      <SectionWrapper className="fdb-block py-0">
         <div
           className="container py-5"
           style={{ backgroundImage: `url(${backgroundImage3})` }}
@@ -582,10 +628,11 @@ const Contacts = () => {
             allowfullscreen=""
           ></iframe>
         </div>
-      </section>
+      </SectionWrapper>
 
       {/* Contact Us Form 8 */}
-      <section
+      <Heading />
+      <SectionWrapper
         className="fdb-block pt-0"
         style={{ backgroundImage: `url(${backgroundImage4})` }}
       >
@@ -734,10 +781,11 @@ const Contacts = () => {
             </div>
           </div>
         </div>
-      </section>
+      </SectionWrapper>
 
       {/* Contact us Form 9 */}
-      <section class="fdb-block bg-gray">
+      <Heading />
+      <SectionWrapper class="fdb-block bg-gray">
         <div class="container">
           <div class="row text-center justify-content-center">
             <div class="col-12 col-md-8 col-lg-7">
@@ -769,10 +817,11 @@ const Contacts = () => {
             </div>
           </div>
         </div>
-      </section>
+      </SectionWrapper>
 
       {/* Contact us Form 10 */}
-      <section class="fdb-block">
+      <Heading />
+      <SectionWrapper class="fdb-block">
         <div class="container">
           <div class="row text-center justify-content-center">
             <div class="col-12 col-md-8 col-lg-7">
@@ -848,7 +897,7 @@ const Contacts = () => {
             </div>
           </div>
         </div>
-      </section>
+      </SectionWrapper>
     </Fragment>
   );
 };

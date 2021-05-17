@@ -230,7 +230,7 @@ const Features = () => {
         <div className="container">
           <div className="row">
             <div className="col text-center">
-              <h1>Froala Design Blocks</h1>
+              <h1>Minimal-UI Design Blocks</h1>
             </div>
           </div>
 

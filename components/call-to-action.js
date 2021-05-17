@@ -24,12 +24,45 @@ import rocketSvg from "../assets/images/draws/rocket.svg";
 import backgroundImage4 from "../assets/images/hero/red.svg";
 import githubSvg from "../assets/images/icons/github.svg";
 import compassSvg from "../assets/images/icons/compass.svg";
+import styled from "styled-components";
+
+const Head = styled.h1`
+  font-size: 1.75rem;
+  margin-left: 2rem;
+  position: center;
+  z-index: 2;
+  background: lightblue;
+  transform: skew(-7deg);
+`;
+
+const HeadingStyles = styled.header`
+  padding-bottom: 15px;
+  .bar {
+    border-bottom: 8px solid black;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: auto 1fr;
+    justify-content: space-between;
+    align-items: center;
+  }
+`;
+
+const Heading = () => {
+  return (
+    <HeadingStyles>
+      <div className="bar">
+        <Head style={{ color: "black" }}>Call To Action Demo UI</Head>
+      </div>
+    </HeadingStyles>
+  );
+};
 
 const callToAction1 = () => {
   return (
     <Fragment>
       <Header />
       <Navigation />
+      <Heading />
       <section className="fdb-block">
         <div className="container">
           <div className="row justify-content-center">
@@ -53,6 +86,7 @@ const callToAction1 = () => {
         </div>
       </section>
       {/* Another Call To Action 2 */}
+      <Heading />
       <section className="fdb-block">
         <div className="container">
           <div className="row justify-content-center">
@@ -76,6 +110,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 3 */}
+      <Heading />
       <section className="fdb-block">
         <div className="container">
           <div className="row justify-content-center">
@@ -99,6 +134,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 4 */}
+      <Heading />
       <section className="fdb-block">
         <div className="container">
           <div className="row justify-content-center">
@@ -159,6 +195,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 5 */}
+      <Heading />
       <section className="fdb-block">
         <div className="container">
           <div className="row justify-content-center">
@@ -178,6 +215,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 6 */}
+      <Heading />
       <section className="fdb-block">
         <div className="container">
           <div className="row justify-content-center">
@@ -206,6 +244,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 7 */}
+      <Heading />
       <section className="fdb-block">
         <div className="container">
           <div className="row text-center pb-0 pb-lg-4">
@@ -252,6 +291,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 8 */}
+      <Heading />
       <section className="fdb-block py-0">
         <div
           className="container py-5 my-5"
@@ -280,6 +320,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 9 */}
+      <Heading />
       <section className="fdb-block">
         <div className="container">
           <div className="row align-items-center justify-content-center">
@@ -299,6 +340,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 10 */}
+      <Heading />
       <section className="fdb-block py-0">
         <div
           className="container py-5 my-5 bg-r"
@@ -328,6 +370,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 11 */}
+      <Heading />
       <section className="fdb-block">
         <div className="container">
           <div className="row justify-content-center">
@@ -348,6 +391,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 12 */}
+      <Heading />
       <section className="fdb-block">
         <div className="container">
           <div className="row">
@@ -385,6 +429,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 13 */}
+      <Heading />
       <section
         className="fdb-block fdb-viewport bg-dark"
         style={{ backgroundImage: `url(${purpleBackground})` }}
@@ -412,6 +457,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 14 */}
+      <Heading />
       <section className="fdb-block py-0">
         <div
           className="container bg-r py-5 my-5"
@@ -439,6 +485,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 15 */}
+      <Heading />
       <section className="fdb-block">
         <div className="container">
           <div className="row align-items-center">
@@ -469,6 +516,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 16 */}
+      <Heading />
       <section
         class="fdb-block bg-dark fdb-viewport"
         style={{ backgroundImage: `url(${backgroundImage3})` }}
@@ -494,6 +542,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 17 */}
+      <Heading />
       <section className="fdb-block">
         <div className="container">
           <div className="row">
@@ -547,6 +596,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 18 */}
+      <Heading />
       <section className="fdb-block">
         <div className="container align-items-end justify-content-center d-flex">
           <div className="row align-items-top text-left">
@@ -579,6 +629,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 19 */}
+      <Heading />
       <section className="fdb-block">
         <div className="container align-items-center justify-content-center d-flex">
           <div className="row align-items-center text-left">
@@ -608,6 +659,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 20 */}
+      <Heading />
       <section className="fdb-block">
         <div className="container">
           <div className="row align-items-center text-left">
@@ -640,6 +692,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 21 */}
+      <Heading />
       <section
         className="fdb-block fdb-viewport bg-dark"
         style={{ backgroundImage: `url(${backgroundImage4})` }}
@@ -672,6 +725,7 @@ const callToAction1 = () => {
       </section>
 
       {/* Call to Action 22 */}
+      <Heading />
       <section className="fdb-block">
         <div className="container">
           <div className="row justify-content-center">
