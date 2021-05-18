@@ -266,7 +266,7 @@ const Home = () => {
                   countries Vokalia and Consonantia.
                 </p>
                 <p className="mt-4">
-                  <a href="https://www.froala.com">
+                  <a href="https://amitravikumar.github.io/">
                     Learn More <i className="fas fa-angle-right"></i>
                   </a>
                 </p>
@@ -280,7 +280,7 @@ const Home = () => {
                   the Semantics, a large language ocean.
                 </p>
                 <p className="mt-4">
-                  <a href="https://www.froala.com">
+                  <a href="https://amitravikumar.github.io/">
                     Learn More <i className="fas fa-angle-right"></i>
                   </a>
                 </p>
@@ -294,7 +294,7 @@ const Home = () => {
                   with the necessary regelialia.
                 </p>
                 <p className="mt-4">
-                  <a href="https://www.froala.com">
+                  <a href="https://amitravikumar.github.io/">
                     Learn More <i class="fas fa-angle-right"></i>
                   </a>
                 </p>

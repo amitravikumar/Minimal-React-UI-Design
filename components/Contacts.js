@@ -83,11 +83,15 @@ const Contacts = () => {
 
                 <p class="h3 mt-5">
                   <strong>Email:</strong>{" "}
-                  <a href="https://www.froala.com">hello@website.com</a>
+                  <a href="https://amitravikumar.github.io/">
+                    hello@website.com
+                  </a>
                 </p>
                 <p class="lead">
                   <strong>Phone:</strong>{" "}
-                  <a href="https://www.froala.com">+44 123 123 1232</a>
+                  <a href="https://amitravikumar.github.io/">
+                    +44 123 123 1232
+                  </a>
                 </p>
               </div>
 
@@ -473,19 +477,19 @@ const Contacts = () => {
           <div className="row text-center">
             <div className="col">
               <p className="h2">
-                <a href="https://www.froala.com" className="mx-2">
+                <a href="https://amitravikumar.github.io/" className="mx-2">
                   <i className="fab fa-facebook"></i>
                 </a>
-                <a href="https://www.froala.com" className="mx-2">
+                <a href="https://amitravikumar.github.io/" className="mx-2">
                   <i className="fab fa-twitter"></i>
                 </a>
-                <a href="https://www.froala.com" className="mx-2">
+                <a href="https://amitravikumar.github.io/" className="mx-2">
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="https://www.froala.com" className="mx-2">
+                <a href="https://amitravikumar.github.io/" className="mx-2">
                   <i className="fab fa-google"></i>
                 </a>
-                <a href="https://www.froala.com" className="mx-2">
+                <a href="https://amitravikumar.github.io/" className="mx-2">
                   <i className="fab fa-pinterest"></i>
                 </a>
               </p>
@@ -571,8 +575,8 @@ const Contacts = () => {
               <h1>Contact Us</h1>
               <p className="lead">
                 If you’re already an active user, please{" "}
-                <a href="https://www.froala.com">sign in</a> before contacting
-                us.
+                <a href="https://amitravikumar.github.io/">sign in</a> before
+                contacting us.
               </p>
             </div>
           </div>
@@ -666,7 +670,7 @@ const Contacts = () => {
               </p>
               <p>+800 3005 4300</p>
               <p>
-                <a href="https://www.froala.com">Contact Support</a>
+                <a href="https://amitravikumar.github.io/">Contact Support</a>
               </p>
               <p>
                 Our technical support is available by phone or email from 11am
@@ -678,7 +682,7 @@ const Contacts = () => {
               </p>
               <p>+800 3005 4300</p>
               <p>
-                <a href="https://www.froala.com">Contact Sales</a>
+                <a href="https://amitravikumar.github.io/">Contact Sales</a>
               </p>
               <p>
                 Our technical support is available by phone or email from 11am
@@ -689,7 +693,7 @@ const Contacts = () => {
                 <strong>General inquiries</strong>
               </p>
               <p>
-                <a href="https://www.froala.com">hello@website.com</a>
+                <a href="https://amitravikumar.github.io/">hello@website.com</a>
               </p>
             </div>
 
@@ -798,19 +802,19 @@ const Contacts = () => {
                 <break />
               </p>
               <p class="h2">
-                <a href="https://www.froala.com" class="mx-2">
+                <a href="https://amitravikumar.github.io/" class="mx-2">
                   <i class="fab fa-facebook"></i>
                 </a>
-                <a href="https://www.froala.com" class="mx-2">
+                <a href="https://amitravikumar.github.io/" class="mx-2">
                   <i class="fab fa-twitter"></i>
                 </a>
-                <a href="https://www.froala.com" class="mx-2">
+                <a href="https://amitravikumar.github.io/" class="mx-2">
                   <i class="fab fa-instagram"></i>
                 </a>
-                <a href="https://www.froala.com" class="mx-2">
+                <a href="https://amitravikumar.github.io/" class="mx-2">
                   <i class="fab fa-google"></i>
                 </a>
-                <a href="https://www.froala.com" class="mx-2">
+                <a href="https://amitravikumar.github.io/" class="mx-2">
                   <i class="fab fa-pinterest"></i>
                 </a>
               </p>
